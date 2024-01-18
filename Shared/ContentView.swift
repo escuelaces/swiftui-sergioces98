@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     @State //Para que se actualize la interfaz
-    var nombre = "Pau"
+    var nombre = "Sergio"
     var body: some View {
         VStack {
             VStack {
@@ -28,7 +28,7 @@ struct ContentView: View {
                             )
                     }
                     
-                    Image("Supra-MK5").resizable().aspectRatio(contentMode: .fit)
+                    Image("foto1").resizable().aspectRatio(contentMode: .fit)
                 }
             }
         }
